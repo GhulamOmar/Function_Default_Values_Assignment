@@ -13,7 +13,7 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(validate_input_in_functions.score_input("Invalid value, below the range"), -1)
 
     def test_test_score_non_numeric(self):
-        self.assertRaises(ValueError, validate_input_in_functions.score_input(("Non numeric"), "a"))
+        self.assertRaises(ValueError, validate_input_in_functions.score_input(("Non numeric"), "b"))
 
 
 if __name__ == '__main__':
