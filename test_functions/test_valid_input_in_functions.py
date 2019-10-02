@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(validate_input_in_functions.score_input("python", 3))
 
     def test_above_range_input(self):
-        self.assertFalse(validate_input_in_functions.score_input("Invalid value, above the range"), 55)
+        self.assertFalse(validate_input_in_functions.score_input("Invalid value, above the range"), 101)
 
 
 if __name__ == '__main__':
